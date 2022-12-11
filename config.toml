@@ -1,4 +1,31 @@
-baseURL = 'http://example.org/'
+baseURL = 'http://techblog.huzefa.me'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = 'maverick' 
+title = 'Huzefa Dargahwala'
+theme = 'maverick'
+
+[permalinks]
+  pages = "/:slug"
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = "-150"
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = -200
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = -150
+
+[imaging]
+  [imaging.exif]
+    disableDate = true
+    disableLatLong = true
+
+
