@@ -21,5 +21,8 @@ With CallKitProviderDelegate, we get methods that can be overridden and observe 
 
 # Project Setup and Pre-requisites
 
-To avoid replication and save the readers time, please refer to the [setup instructions]({{< ref "/posts/handling-incoming-calls-using-callkit-ios" >}}) in Part 1 of this series. The [code on GitHub](https://github.com/vizkid2005/CallKitSample) has the Sample project already setup, so feel free to use that as well. 
+To avoid replication I will not go over detailed setup in this post, please refer to the [setup instructions]({{< ref "/posts/handling-incoming-calls-using-callkit-ios" >}}) in Part 1 of this series. The [code on GitHub](https://github.com/vizkid2005/CallKitSample) has the Sample project already setup, so feel free to use that as well. 
 
+# CallKit Concepts
+
+In [Part 1]({{< ref "/posts/handling-incoming-calls-using-callkit-ios" >}}), we talked about `CXProvider`. `CXProvider` gives you a direct API to report an incoming call to the OS and have CallKit  when you need to report an incoming call and listen
